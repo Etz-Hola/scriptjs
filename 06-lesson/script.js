@@ -171,3 +171,9 @@ const thirdExample = () => {
   anotherFn();
 };
 thirdExample();
+
+
+
+
+
+
