@@ -161,7 +161,7 @@ console.log(exampleString1.slice(4));
 const sentence = 'The quick brown fox jumped over the lazy dog';
 console.log(sentence.split(' '))
 
-//18.REVERSE() METHOD
+//8.REVERSE() METHOD
 //it revers the order of the elements in an array.
 //To use revers
 //1. Split a string
@@ -179,3 +179,34 @@ console.log(result1)
 
 
 
+
+
+//9. REPEAT() METHOD
+//It repeat a string as given position
+
+const dogSay = 'woof';
+console.log(dogSay.repeat(10));
+
+//10. TRIM() METHOD
+//we use TRIM to clean empty spaces
+
+
+const str = '     @examplegmail.com       ';
+console.log(str.trim())
+
+const ab = ['lola', 'tolu', 'sola' ]
+const answer = ab.push()
+console.log(ab)
+
+
+
+//class work
+const footballTeam = ('juventus, manunited, hvggjhv, fcmb, madrid, Fcmb' );
+const answer7 = footballTeam.split(' ').reverse().join();
+console.log(answer7)
+
+const animal = ('cart:meaon, Goat:hahh,   ');
+console.log(animal.repeat(10));
+
+const make = 'My Rice';
+console.log(make.slice(3));
