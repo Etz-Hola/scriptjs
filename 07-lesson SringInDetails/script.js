@@ -210,3 +210,53 @@ console.log(animal.repeat(10));
 
 const make = 'My Rice';
 console.log(make.slice(3));
+
+
+
+
+
+
+
+
+
+
+
+    //revision 
+const myName = "Qadir Adesoye o"
+console.log(myName.length)
+
+
+const mixedString = "Hey, all"
+const lCase = mixedString.toLowerCase();
+const upperC = mixedString.toUpperCase();
+
+console.log(lCase);
+console.log(upperC);
+
+
+
+const hobby2 = "Codind, Playing, Sleeping, Dancing, Eating, Playing";
+console.log(hobby2.indexOf('Playing'));
+console.log(hobby2.lastIndexOf("Eating"));
+console.log(hobby2.includes("You"));
+console.log(hobby2.startsWith("C"));
+
+const hobby3 = "Dancing, Codind, Playing, Sleeping, Dancing, Eating, Playing";
+console.log(hobby3.endsWith('g'))
+
+
+const pets = 'Cat, Dog and Camel.';
+const pet = pets.split(' ').reverse().join();
+console.log(pet)
+
+console.log(pets.repeat(3))
+
+console.log(pets.trim())
+
+
+
+const stri = '   Yes, i like it that way          '
+console.log(stri.trim( ));
+
+const the = 'The quick brown fox jumps over the lazy dog';
+console.log(the.slice(10, 19));

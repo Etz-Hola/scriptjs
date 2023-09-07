@@ -46,6 +46,9 @@ console.log(arr);
 for (const cohort of cohorts) {
   console.log(cohort);
 }
+
+
+
 // ARRAY method
 // Push()
 // Push will help to add to the last list of element of an array
@@ -234,6 +237,7 @@ const commodities = inventory.map((value) => value.name);
 console.log(commodities);
 
 //FILTER METHORD ()
+//Returns the elements of an array that meet the condition specified in a callback function.
 
 const nums = [-20, -45, 43, 30, -1, 23, 34, -50, 44, -75];
 const negNums = nums.filter((num) => num < 0);
@@ -318,3 +322,34 @@ console.log(array.every(el => el >= 1));
 
 //reduce()
 //this iterate all the element and conpute them to a single value
+
+const priceList = [200,, 400, 100, 350, 1040, 450];
+let initialValue = 0
+
+const total = priceList.reduce((accumulator, currentValue) => {
+    return accumulator += currentValue
+}, initialValue)
+
+console.log(total)
+
+//
+const totalTrns = nums.reduce((accum, el) => {
+    return accum + el;
+}, 0)
+
+console.log(totalTrns)
+
+
+//concat()
+// this is to join two array together
+
+const alphabet = ['A', 'B', 'C', 'D'];
+const numbers$ = [1, 2, 3, 4,5];
+
+const number$alpha = alphabet.concat(numbers$);
+console.log(number$alpha);
+
+
+
+          //CLASS  EXERCISE
+  
