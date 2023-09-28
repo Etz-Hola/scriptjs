@@ -127,6 +127,7 @@ console.log('At the bottom');
 
 //Date OBJECT
 
+
 let date = new Date()
  let month = date.getMonth()
  let dayOfWeek = date.getDay()
