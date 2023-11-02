@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        
+        <canvas id="gameBoard" width="400" height="400"></canvas>
+        <div class="forAllArrows">
+            <div class="directionButtons">
+                <button class="pause">Pause</button>
+                <button class="arrow-button arrowButtonUp"><span class="arrow-up">Up</span></button>
+                <div class="sideButtons">
+                    <button class="arrow-button arrowButtonLeft"><span class="arrow-left">Left</span></button>
+                    <label id="scoreText">0</label>
+                    <button class="arrow-button arrowButtonRight"><span class="arrow-right">Right</span></button>
+                </div>
+                <button class="arrow-button arrowButtonDown"><span class="arrow-down">Down</span></button>
+            </div>
+        </div>
+        <div class="restart">
+            <div>
+                <label for="mySelect">Difficulty:</label>
+                <select id="mySelect">
+                    <option value="veryEasy"> Very Easy</option>
+                    <option value="easy">Easy</option>
+                    <option value="normal">Normal</option>
+                    <option value="hard">Hard</option>
+                    <option value="veryHard">Very Hard</option>
+                  </select>    
+            </div>      
+            <button id="resetBtn">Start Game</button>
+        </div>
+        
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

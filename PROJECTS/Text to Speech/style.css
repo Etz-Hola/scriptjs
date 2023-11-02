@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(36, 34, 34);
+}
+
+.appContent {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+}
+
+
+.readTextApp {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(55, 44, 78);
+    width: 50%;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.heading {
+    color: azure;
+    font-family: sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#text {
+    border-radius: 8px;
+    background-color: rgb(221, 226, 213);
+    width: 80%;
+    height: 58%;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: rgb(51, 49, 49);
+}
+
+select{
+    height: 30px;
+    /* width: 280px; */
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding-left: 5px;
+    /* padding-right: 20px; */
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 300ms ease-in-out ;
+}
+
+button:hover {
+    background-color: aqua;
+    transform: scale(1.05);
+}
+
+
+
+.myButtons {
+    margin-top: 10px;
+    display: block;
+}

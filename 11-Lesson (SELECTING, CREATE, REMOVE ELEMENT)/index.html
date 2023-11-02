@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+
+        .menu-item {
+            background-color: black;
+            color: white;
+        }
+
+        .menu-item.active {
+            background-color: brown;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <ul class="section">
+        <li onclick="menuClicked(this)" class="menu-item">Menu 1</li>
+        <li onclick="menuClicked(this)" class="menu-item">Menu 2</li>
+        <li onclick="menuClicked(this)" class="menu-item active">Menu 3</li>
+        <li onclick="menuClicked(this)" class="menu-item">Menu 4</li>
+    </ul>
+    
+    <button>Submit</button>
+
+    <h1 class="heading1">Hello</h1>    
+    <h1 class="heading2" id="heading1">Hey Bro!</h1>
+    <h1 class="heading3">go</h1>
+    <p id="para">What's up</p>
+
+    <h2 class="text go abc" id="headingText">Hello</h2>
+    <h2 class="text" >Hello</h2>
+
+    <ul class="subjects">
+        <li>Maths</li>
+        <li class="fav-subject">Biology</li>
+        <li>English</li>
+    </ul>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

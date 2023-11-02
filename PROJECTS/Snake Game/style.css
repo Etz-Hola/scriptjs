@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+#gameContainer {
+    text-align: center;
+    position: relative;
+}
+
+#gameBoard{
+    border: 2px solid black;
+}
+
+#scoreText{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+   
+}
+
+.restart {
+    display: none;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+}
+
+
+
+#mySelect{
+    height: 1.4rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+#resetBtn {
+    margin-top: 0.5rem;
+    cursor: pointer;
+    font-size: 20px;
+    /* width: 100px; */
+    padding: 2px 10px;
+    /* height: 30px; */
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#resetBtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.forAllArrows{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.directionButtons{
+    width: 380px;
+    position: relative;
+}
+.pause {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    /* height: 30px; */
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    /* width: 60px; */
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(104, 2, 2);
+}
+
+.pause:hover {
+    color: rgb(168, 255, 255);
+    background-color: rgb(29, 12, 143);
+    transition: 0.5s;
+}
+
+.arrow-button {
+    margin: 0.5rem auto;
+    text-align: center;
+    background-color: #eee;
+    padding: 0.5em 0;
+    /* display: block; */
+    width: 100px;
+    height: 70px;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.6);
+    border-radius: 8px;
+
+  }
+
+  button.arrow-button:hover {
+    color: #eee;
+    background-color: #333;
+  }
+  
+  .sideButtons {
+    display: flex;
+   gap: 1.2rem;
+   justify-content: center;
+   place-items: center;
+  }
+
+  .arrow-left:before {
+      content: '\25c4';
+      padding-right: 0.5em;
+
+  }
+  
+  .arrow-right:after {
+      content: '\25ba';
+      padding-left: 0.5em;
+
+    }
+  
+  
+  .arrow-down:after {
+      content: '\25bc';
+      padding-left: 0.5em;
+
+    }
+  
+  .arrow-up:after {
+      content: '\25b2';
+      padding-left: 0.5em;
+
+    }
+  
