@@ -222,7 +222,7 @@ console.log(lstIndex2);
 //We use it when we want to do sth on each elements of the array.
 //It allows a callback function that will allow it to change the original array
 
-const names = ['Shola', 'Bola', 'Tola'];
+const names = ['Shola', 'Bola', 'Tola', 'Lola'];
 
 // ES6 for of loop METHOD 
 for (const name of names) {
@@ -343,7 +343,7 @@ const employeesData = [
   {name: "Wale", age: 2023-1970, yearsSpent: 10},
   {name: "Otedola", age: 2023-1980, yearsSpent: 20},
   {name: "Dangote", age: 2023-1963, yearsSpent: 15},
-  {name: "Akosi", age: 2023-1980, yearsSpent: 35},
+  {name: "Akosi", age: 2023-1980, yearsSpent: 35}, 
   {name: "Mutula", age: 2023-1981, yearsSpent: 10},
 ];
 

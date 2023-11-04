@@ -13,6 +13,7 @@ sort()
 reduce()
 */
 
+
 const companies= [
    {name: "Company One", category: "Finance", start: 1981, end: 2004},
    {name: "Company Two", category: "Retail", start: 1992, end: 2008},
@@ -24,6 +25,10 @@ const companies= [
    {name: "Company Eight", category: "Technology", start: 2011, end: 2016},
    {name: "Company Nine", category: "Retail", start: 1981, end: 1989}
  ];
+
+//Companies that lated for at least 10 years ago
+const filteredRetail = companies.filter((company) => (company.end - company.start) >= 10)
+console.log(filteredRetail);
  
  const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 
