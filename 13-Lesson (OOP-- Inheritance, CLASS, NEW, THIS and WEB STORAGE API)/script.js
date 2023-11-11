@@ -11,12 +11,12 @@ const obj = {
     }
 }
 
-console.log(obj);
-console.log(obj.hobbies);
-console.log(obj['hobbies']);
-console.log(Object.keys(obj));
-console.log(Object.values(obj));
-console.log(Object.entries(obj));
+// console.log(obj);
+// console.log(obj.hobbies);
+// console.log(obj['hobbies']);
+// console.log(Object.keys(obj));
+// console.log(Object.values(obj));
+// console.log(Object.entries(obj));
 
 
 
