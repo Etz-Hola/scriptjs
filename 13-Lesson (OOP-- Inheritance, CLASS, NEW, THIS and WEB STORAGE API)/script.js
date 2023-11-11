@@ -197,7 +197,7 @@ const person3 = {
     age: 40,
     isBlack: true 
 }
-// console.log(person3);
+console.log(person3);
 
 
 // ************************************************ CLASS  *************************************************************  //IS LIKE A BLUEPRINT FOR CREATING MULTIPLE OBJECTS
