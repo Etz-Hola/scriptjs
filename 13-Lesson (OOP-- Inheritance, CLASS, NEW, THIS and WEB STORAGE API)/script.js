@@ -226,7 +226,7 @@ const createPerson = (name, age, isActive) => {
         age: age,
         isActive: isActive
     }
-    // return userSchema
+    return userSchema
 }
 
             // OR 
@@ -237,7 +237,7 @@ const createPerson1 = (name, age, isActive) => {
         age,
         isActive
     }
-    return userSchema
+    // return userSchema
 }
 
             // OR 
