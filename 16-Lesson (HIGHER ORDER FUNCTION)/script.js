@@ -12,6 +12,7 @@ map()
 sort()
 reduce()
 */
+ 
 
 
 const companies= [
