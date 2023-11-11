@@ -351,24 +351,24 @@ class Vehicle {
         this._power = power  //underscore is required when using getter and setter
     }
 
-//     get power() {
-//         return (`${this._power}hp`)
-//     }
+    get power() {
+        return (`${this._power}hp`)
+    }
 
-//     get gas() {
-//         return `${this._gas}L (${this._gas/50*100}%)`
-//     }
+    get gas() {
+        return `${this._gas}L (${this._gas/50*100}%)`
+    }
 
-//     set gas(value) {
-//         if(value > 50) {
-//             value = 50
-//         } else if (value < 0) {
-//             value = 0
-//         }
+    set gas(value) {
+        if(value > 50) {
+            value = 50
+        } else if (value < 0) {
+            value = 0
+        }
 
-//         this._gas = value
-//     }
-// }
+        this._gas = value
+    }
+}
 
 let vehicle = new Vehicle(400);
 vehicle.gas = 25
