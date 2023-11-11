@@ -106,6 +106,8 @@ minMax(inputArr)
 
 
 //************************************************************** CLASS KEYWORD ************************************************************
+//
+
 // EXAMPLE
 class Person {
     constructor(name, age, isWorking) {
