@@ -46,7 +46,7 @@ console.log(state1);
 // **********FOR DATE *******
 const myDate = new Date();  //Date is a special object built on JavaScript
 console.log(myDate);
-// console.log(myDate.getFullYear()); //Get the year
+console.log(myDate.getFullYear()); //Get the year
 
 
 
@@ -80,7 +80,7 @@ function player(name, age, team, jerseyNo) {
     this.team = team;
     this.jerseyNo = jerseyNo;
 
-    console.log(this);
+    // console.log(this);
 }
 
 const forMbappe = new player('Kylian Mbappe', 24, 'Paris Saint German', 7);
