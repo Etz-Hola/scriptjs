@@ -311,18 +311,6 @@ class Fish extends Animal {         //FISH
 // }
 
 
-// class Goat extends Animal {         //GOAT
-//     name = 'goat'
-
-//     swim() {
-//         console.log(`This ${this.name} can swim`);
-//     }
-   
-
-//     jump() {
-//         console.log(`This ${this.name} can jump`);
-//     }
-// }
 
 const rabbit = new Rabbit();        //If 'static' is not used for the methods. We use it this way
 console.log(rabbit);
