@@ -136,7 +136,7 @@ class Players {
         this.name = name;
         this.age = age;
         this.team = team;
-        this.jerseyNo = jerseyNo;
+        this.jerseyNo = JerseyNo;
     }
  }
 
