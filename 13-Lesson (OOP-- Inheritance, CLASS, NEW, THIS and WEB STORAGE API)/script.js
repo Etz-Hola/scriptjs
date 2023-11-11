@@ -52,6 +52,7 @@ console.log(myDate.getFullYear()); //Get the year
 
 
 // ********************************************************* this KEYWORD ************************************************************
+// it reference to a perticular object. the object depends on the immediate context
 function sentence(words) {
     this.words = words;
     console.log(this);
