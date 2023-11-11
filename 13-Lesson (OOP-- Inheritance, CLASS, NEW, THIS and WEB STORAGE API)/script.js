@@ -204,7 +204,7 @@ console.log(person3);
 class Persons {
     constructor(name, age, isBlack) {
         this.name = name
-        this.age = age
+        // this.age = age
         this.isBlack = isBlack
     }
 }
