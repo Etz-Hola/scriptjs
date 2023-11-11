@@ -80,7 +80,7 @@ function player(name, age, team, jerseyNo) {
     this.team = team;
     this.jerseyNo = jerseyNo;
 
-    // console.log(this);
+    console.log(this);
 }
 
 const forMbappe = new player('Kylian Mbappe', 24, 'Paris Saint German', 7);
