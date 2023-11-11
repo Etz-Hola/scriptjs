@@ -270,26 +270,26 @@ const car1 = new Cars("Toyota")
 const car2 = new Cars("Volvo")
 const car3 = new Cars("Benz")
 
-// console.log(car1.numberOfCArs);
-// console.log(car2.numberOfCArs);
-// console.log(car3.numberOfCArs);
+console.log(car1.numberOfCArs);
+console.log(car2.numberOfCArs);
+console.log(car3.numberOfCArs);
 
 Cars.startRace()
 
 
 //*********************INHERITANCE**************
-class Animal {
-    alive = true;
+// class Animal {
+//     alive = true;
 
-    eat() {
-        console.log(`This ${this.name} can eat`);
-    }
+//     eat() {
+//         console.log(`This ${this.name} can eat`);
+//     }
 
-    sleep() {
-        console.log(`This ${this.name} can sleep`);
-    }
+//     sleep() {
+//         console.log(`This ${this.name} can sleep`);
+//     }
 
-}
+// }
 
 
 //extends KEYWORD
