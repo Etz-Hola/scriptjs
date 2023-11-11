@@ -106,7 +106,8 @@ minMax(inputArr)
 
 
 //************************************************************** CLASS KEYWORD ************************************************************
-//
+//A class is a blueprint for creating objects
+    
 
 // EXAMPLE
 class Person {
