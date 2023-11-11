@@ -386,7 +386,7 @@ console.log(vehicle.gas);
 
 localStorage.setItem('name', 'John Doe');
 let result = document.getElementById('result').innerHTML = localStorage.getItem('name');
-// console.log(result);
+console.log(result);
 
 
 sessionStorage.setItem('name', 'Quadri');
