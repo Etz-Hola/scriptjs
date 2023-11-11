@@ -26,7 +26,7 @@ const arr2 = [1, 2, 3]
 console.log(arr2);
 
 const arr3 = new Array(1, 2, 3)
-console.log(arr3);
+// console.log(arr3);
 
 const state = {};                   //Method1
 const state1 = new Object();        //Method2
