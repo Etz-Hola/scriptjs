@@ -125,7 +125,7 @@ class Players {
  const player11 = new Players()
  console.log(player11)
  player11.score++;
- console.log(player11.score)
+ console.log(player11.score) 
  player11.pause()
  player11.exit()
 
