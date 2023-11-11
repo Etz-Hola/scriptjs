@@ -10,7 +10,6 @@ const obj = {
         hobby5: 'Dancing'
     }
 }
-
 // ;
 
 // 
