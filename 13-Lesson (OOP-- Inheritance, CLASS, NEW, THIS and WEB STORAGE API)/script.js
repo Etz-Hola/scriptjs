@@ -39,7 +39,7 @@ console.log(test2);
 
 state.bestState = 'Lagos'
 console.log(state);
-
+state1.beststate = 'Abuja'
 
 
 // **********FOR DATE *******
