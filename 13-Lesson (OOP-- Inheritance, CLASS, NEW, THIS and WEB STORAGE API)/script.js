@@ -384,8 +384,4 @@ console.log(vehicle.gas);
 // setItem()
 // getItem()
 
-// localStorage.setItem('name', 'John Doe');
-// let result = document.getElementById('result').innerHTML = localStorage.getItem('name');
-// console.log(result);
-
 
