@@ -216,7 +216,7 @@ const user3 = new Persons('Qido', 35, false)
 console.log(user);
 console.log(user1);
 console.log(user2);
-console.log(user3);
+// console.log(user3);
 
 
 //************* USING ARROW FUNCTION 
