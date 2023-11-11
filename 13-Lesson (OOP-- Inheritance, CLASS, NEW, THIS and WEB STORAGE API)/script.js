@@ -34,6 +34,7 @@ const state1 = new Object();        //Method2
 const test = new Object()
 const test2 = new Array()
 
+console.log(test);
 
 
 
