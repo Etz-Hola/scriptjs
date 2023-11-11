@@ -136,9 +136,12 @@ class Players {
         this.name = name;
         this.age = age;
         this.team = team;
-        this.jerseyNo = JerseyNo;
+        this.jerseyNo = jerseyNo;
     }
  }
+
+ const mbappe = new Footballer('Mbappe', 24, 'PSG', 7)
+ console.log(mbappe)
 
 
 
