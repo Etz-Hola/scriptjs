@@ -13,7 +13,7 @@ const obj = {
 
 console.log(obj);
 console.log(obj.hobbies);
-console.log(obj['hobbies']);
+// 
 ;
 
 // 
