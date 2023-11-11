@@ -35,7 +35,7 @@ const test = new Object()
 const test2 = new Array()
 
 console.log(test);
-
+console.log(iiiiii);
 
 
 
