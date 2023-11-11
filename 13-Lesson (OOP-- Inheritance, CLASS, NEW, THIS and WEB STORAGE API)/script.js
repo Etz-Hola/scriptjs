@@ -128,7 +128,7 @@ class Players {
  player11.score++;
  console.log(player11.score) 
 
- player11.pause()
+//  player11.pause()
  player11.exit()
 
  class Footballer {
