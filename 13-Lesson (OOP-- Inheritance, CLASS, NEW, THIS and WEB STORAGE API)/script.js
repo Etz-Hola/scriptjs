@@ -278,18 +278,18 @@ Cars.startRace()
 
 
 //*********************INHERITANCE**************
-// class Animal {
-//     alive = true;
+class Animal {
+    alive = true;
 
-//     eat() {
-//         console.log(`This ${this.name} can eat`);
-//     }
+    eat() {
+        console.log(`This ${this.name} can eat`);
+    }
 
-//     sleep() {
-//         console.log(`This ${this.name} can sleep`);
-//     }
+    sleep() {
+        console.log(`This ${this.name} can sleep`);
+    }
 
-// }
+}
 
 
 //extends KEYWORD
