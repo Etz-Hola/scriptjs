@@ -330,6 +330,17 @@ console.log(rabbit);
 const fish = new Fish()
 const goat = new Goat()
 
+// console.log(rabbit.alive);
+// rabbit.eat();
+// rabbit.sleep();
+// rabbit.run();
+
+// fish.eat();
+// fish.sleep();
+
+// goat.sleep();
+// goat.jump();
+// goat.swim
 
 
 //******* Getter and Setter ********
