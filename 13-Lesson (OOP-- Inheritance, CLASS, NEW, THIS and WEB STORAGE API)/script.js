@@ -131,7 +131,14 @@ class Players {
  player11.pause()
  player11.exit()
 
- class Footballer 
+ class Footballer {
+    constructor(name, age, team, jerseyNo) {
+        this.name = name;
+        this.age = age;
+        this.team = team;
+        this.jerseyNo = JerseyNo;
+    }
+ }
 
 
 
