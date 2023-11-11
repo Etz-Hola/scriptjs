@@ -292,14 +292,14 @@ class Animal {
 }
 
 
-// //extends KEYWORD
-// class Rabbit extends Animal {       //RABBIT
-//     name = 'rabbit'
+//extends KEYWORD
+class Rabbit extends Animal {       //RABBIT
+    name = 'rabbit'
 
-//    run() {
-//         console.log(`This ${this.name} can run`);
-//     }
-// }
+   run() {
+        console.log(`This ${this.name} can run`);
+    }
+}
 
 
 class Fish extends Animal {         //FISH
