@@ -270,9 +270,9 @@ const car1 = new Cars("Toyota")
 const car2 = new Cars("Volvo")
 const car3 = new Cars("Benz")
 
-console.log(car1.numberOfCArs);
-console.log(car2.numberOfCArs);
-console.log(car3.numberOfCArs);
+// console.log(car1.numberOfCArs);
+// console.log(car2.numberOfCArs);
+// console.log(car3.numberOfCArs);
 
 Cars.startRace()
 
