@@ -384,11 +384,11 @@ console.log(vehicle.gas);
 // setItem()
 // getItem()
 
-localStorage.setItem('name', 'John Doe');
-let result = document.getElementById('result').innerHTML = localStorage.getItem('name');
-console.log(result);
+// localStorage.setItem('name', 'John Doe');
+// let result = document.getElementById('result').innerHTML = localStorage.getItem('name');
+// console.log(result);
 
 
-sessionStorage.setItem('name', 'Quadri');
-let demo = document.getElementById('demo').innerText = sessionStorage.getItem('name');
-console.log(demo);
+// sessionStorage.setItem('name', 'Quadri');
+// let demo = document.getElementById('demo').innerText = sessionStorage.getItem('name');
+// console.log(demo);
