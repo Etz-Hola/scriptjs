@@ -111,6 +111,25 @@ minMax(inputArr)
     //-Use a constructor for unique properties
 
 // EXAMPLE
+
+class Players {
+    score = 0
+    pause() {
+        console.log("You paused the game")
+    }
+    exit() { 
+        console.log("You exited the game ")
+    }
+ }
+
+ const player11 = new Players()
+ console.log(player11)
+ player11.pause()
+ player11.exit()
+
+
+
+
 class Person {
     constructor(name, age, isWorking) {
         this.name = name;
