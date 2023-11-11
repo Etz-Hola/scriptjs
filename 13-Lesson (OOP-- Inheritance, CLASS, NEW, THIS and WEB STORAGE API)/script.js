@@ -26,7 +26,7 @@ const arr2 = [1, 2, 3]
 console.log(arr2);
 
 const arr3 = new Array(1, 2, 3)
-// console.log(arr3);
+console.log(arr3);
 
 const state = {};                   //Method1
 const state1 = new Object();        //Method2
@@ -46,7 +46,7 @@ console.log(state1);
 // **********FOR DATE *******
 const myDate = new Date();  //Date is a special object built on JavaScript
 console.log(myDate);
-console.log(myDate.getFullYear()); //Get the year
+// console.log(myDate.getFullYear()); //Get the year
 
 
 
