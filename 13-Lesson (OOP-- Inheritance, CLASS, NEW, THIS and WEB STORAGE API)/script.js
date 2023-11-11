@@ -254,12 +254,12 @@ console.log(user8);
 
 
 // ******************STATIC KEYWORD******************
-class Cars {
-    numberOfCArs = 0;
-    constructor(model) {
-        this.model = model
-        this.numberOfCArs += 1
-    }
+// class Cars {
+//     numberOfCArs = 0;
+//     constructor(model) {
+//         this.model = model
+//         this.numberOfCArs += 1
+//     }
 
     static startRace() {
         console.log('3...2...1...GO!')
