@@ -390,3 +390,5 @@ console.log(result);
 
 
 sessionStorage.setItem('name', 'Quadri');
+let demo = document.getElementById('demo').innerText = sessionStorage.getItem('name');
+console.log(demo);
