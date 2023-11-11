@@ -128,7 +128,7 @@ class Players {
  player11.score++;
  console.log(player11.score) 
 
-//  player11.pause()
+ player11.pause()
  player11.exit()
 
  class Footballer {
@@ -197,7 +197,7 @@ const person3 = {
     age: 40,
     isBlack: true 
 }
-console.log(person3);
+// console.log(person3);
 
 
 // ************************************************ CLASS  *************************************************************  //IS LIKE A BLUEPRINT FOR CREATING MULTIPLE OBJECTS
